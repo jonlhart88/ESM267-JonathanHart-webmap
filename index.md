@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+<iframe src="jh_webmap/index.html" height=768 width=1024></iframe>
+
 You can use the [editor on GitHub](https://github.com/jonlhart88/ESM267_Ass2_Webmap_JH/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
