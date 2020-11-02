@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <style>
+        #map {
+            width: 1234px;
+            height: 1204px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet-svg-shape-markers.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
+        <script src="data/NationalParkServiceLand_1.js"></script>
+        <script src="data/NationalForestLand_2.js"></script>
+        <script src="data/CountyLines_3.js"></script>
+        <script src="data/Pre1970_4.js"></script>
+        <script src="data/19701979_5.js"></script>
+        <script src="data/19801989_6.js"></script>
+        <script src="data/19901999_7.js"></script>
+        <script src="data/20002009_8.js"></script>
+        <script src="data/20102019_9.js"></script>
+        <script src="data/ExtremeHazard_10.js"></script>
+        <script src="data/ThreatLevel_11.js"></script>
+        <script src="data/NewHomesConstructionPost94SRA_12.js"></script>
+        <script src="data/NewHomeConstructionPost94LRA_13.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[34.251053482586144,-120.37978043607063],[35.19570032529333,-119.41155671708955]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_GoogleHybrid_0');
+        map.getPane('pane_GoogleHybrid_0').style.zIndex = 400;
+        var layer_GoogleHybrid_0 = L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+            pane: 'pane_GoogleHybrid_0',
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 18
+        });
+        layer_GoogleHybrid_0;
+        map.addLayer(layer_GoogleHybrid_0);
+        function pop_NationalParkServiceLand_1(feature, layer) {
+        }
+
+        function style_NationalParkServiceLand_1_0() {
+            return {
+                pane: 'pane_NationalParkServiceLand_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(37,110,47,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_NationalParkServiceLand_1');
+        map.getPane('pane_NationalParkServiceLand_1').style.zIndex = 401;
+        map.getPane('pane_NationalParkServiceLand_1').style['mix-blend-mode'] = 'normal';
+        var layer_NationalParkServiceLand_1 = new L.geoJson(json_NationalParkServiceLand_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_NationalParkServiceLand_1',
+            layerName: 'layer_NationalParkServiceLand_1',
+            pane: 'pane_NationalParkServiceLand_1',
+            onEachFeature: pop_NationalParkServiceLand_1,
+            style: style_NationalParkServiceLand_1_0,
+        });
+        bounds_group.addLayer(layer_NationalParkServiceLand_1);
+        function pop_NationalForestLand_2(feature, layer) {
+        }
+
+        function style_NationalForestLand_2_0() {
+            return {
+                pane: 'pane_NationalForestLand_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(19,152,37,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_NationalForestLand_2');
+        map.getPane('pane_NationalForestLand_2').style.zIndex = 402;
+        map.getPane('pane_NationalForestLand_2').style['mix-blend-mode'] = 'normal';
+        var layer_NationalForestLand_2 = new L.geoJson(json_NationalForestLand_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_NationalForestLand_2',
+            layerName: 'layer_NationalForestLand_2',
+            pane: 'pane_NationalForestLand_2',
+            onEachFeature: pop_NationalForestLand_2,
+            style: style_NationalForestLand_2_0,
+        });
+        bounds_group.addLayer(layer_NationalForestLand_2);
+        function pop_CountyLines_3(feature, layer) {
+        }
+
+        function style_CountyLines_3_0() {
+            return {
+                pane: 'pane_CountyLines_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(152,125,183,0.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_CountyLines_3');
+        map.getPane('pane_CountyLines_3').style.zIndex = 403;
+        map.getPane('pane_CountyLines_3').style['mix-blend-mode'] = 'normal';
+        var layer_CountyLines_3 = new L.geoJson(json_CountyLines_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_CountyLines_3',
+            layerName: 'layer_CountyLines_3',
+            pane: 'pane_CountyLines_3',
+            onEachFeature: pop_CountyLines_3,
+            style: style_CountyLines_3_0,
+        });
+        bounds_group.addLayer(layer_CountyLines_3);
+        function pop_Pre1970_4(feature, layer) {
+        }
+
+        function style_Pre1970_4_0() {
+            return {
+                pane: 'pane_Pre1970_4',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,158,23,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Pre1970_4');
+        map.getPane('pane_Pre1970_4').style.zIndex = 404;
+        map.getPane('pane_Pre1970_4').style['mix-blend-mode'] = 'normal';
+        var layer_Pre1970_4 = new L.geoJson(json_Pre1970_4, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Pre1970_4',
+            layerName: 'layer_Pre1970_4',
+            pane: 'pane_Pre1970_4',
+            onEachFeature: pop_Pre1970_4,
+            style: style_Pre1970_4_0,
+        });
+        bounds_group.addLayer(layer_Pre1970_4);
+        function pop_19701979_5(feature, layer) {
+        }
+
+        function style_19701979_5_0() {
+            return {
+                pane: 'pane_19701979_5',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(51,95,206,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_19701979_5');
+        map.getPane('pane_19701979_5').style.zIndex = 405;
+        map.getPane('pane_19701979_5').style['mix-blend-mode'] = 'normal';
+        var layer_19701979_5 = new L.geoJson(json_19701979_5, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_19701979_5',
+            layerName: 'layer_19701979_5',
+            pane: 'pane_19701979_5',
+            onEachFeature: pop_19701979_5,
+            style: style_19701979_5_0,
+        });
+        bounds_group.addLayer(layer_19701979_5);
+        function pop_19801989_6(feature, layer) {
+        }
+
+        function style_19801989_6_0() {
+            return {
+                pane: 'pane_19801989_6',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,222,42,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_19801989_6');
+        map.getPane('pane_19801989_6').style.zIndex = 406;
+        map.getPane('pane_19801989_6').style['mix-blend-mode'] = 'normal';
+        var layer_19801989_6 = new L.geoJson(json_19801989_6, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_19801989_6',
+            layerName: 'layer_19801989_6',
+            pane: 'pane_19801989_6',
+            onEachFeature: pop_19801989_6,
+            style: style_19801989_6_0,
+        });
+        bounds_group.addLayer(layer_19801989_6);
+        function pop_19901999_7(feature, layer) {
+        }
+
+        function style_19901999_7_0() {
+            return {
+                pane: 'pane_19901999_7',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(73,148,27,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_19901999_7');
+        map.getPane('pane_19901999_7').style.zIndex = 407;
+        map.getPane('pane_19901999_7').style['mix-blend-mode'] = 'normal';
+        var layer_19901999_7 = new L.geoJson(json_19901999_7, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_19901999_7',
+            layerName: 'layer_19901999_7',
+            pane: 'pane_19901999_7',
+            onEachFeature: pop_19901999_7,
+            style: style_19901999_7_0,
+        });
+        bounds_group.addLayer(layer_19901999_7);
+        function pop_20002009_8(feature, layer) {
+        }
+
+        function style_20002009_8_0() {
+            return {
+                pane: 'pane_20002009_8',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(201,54,123,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_20002009_8');
+        map.getPane('pane_20002009_8').style.zIndex = 408;
+        map.getPane('pane_20002009_8').style['mix-blend-mode'] = 'normal';
+        var layer_20002009_8 = new L.geoJson(json_20002009_8, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_20002009_8',
+            layerName: 'layer_20002009_8',
+            pane: 'pane_20002009_8',
+            onEachFeature: pop_20002009_8,
+            style: style_20002009_8_0,
+        });
+        bounds_group.addLayer(layer_20002009_8);
+        function pop_20102019_9(feature, layer) {
+        }
+
+        function style_20102019_9_0() {
+            return {
+                pane: 'pane_20102019_9',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.65)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(102,11,167,0.65)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_20102019_9');
+        map.getPane('pane_20102019_9').style.zIndex = 409;
+        map.getPane('pane_20102019_9').style['mix-blend-mode'] = 'normal';
+        var layer_20102019_9 = new L.geoJson(json_20102019_9, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_20102019_9',
+            layerName: 'layer_20102019_9',
+            pane: 'pane_20102019_9',
+            onEachFeature: pop_20102019_9,
+            style: style_20102019_9_0,
+        });
+        bounds_group.addLayer(layer_20102019_9);
+        function pop_ExtremeHazard_10(feature, layer) {
+        }
+
+        function style_ExtremeHazard_10_0() {
+            return {
+                pane: 'pane_ExtremeHazard_10',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.67)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(148,16,20,0.67)',
+                interactive: false,
+            }
+        }
+        map.createPane('pane_ExtremeHazard_10');
+        map.getPane('pane_ExtremeHazard_10').style.zIndex = 410;
+        map.getPane('pane_ExtremeHazard_10').style['mix-blend-mode'] = 'normal';
+        var layer_ExtremeHazard_10 = new L.geoJson(json_ExtremeHazard_10, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_ExtremeHazard_10',
+            layerName: 'layer_ExtremeHazard_10',
+            pane: 'pane_ExtremeHazard_10',
+            onEachFeature: pop_ExtremeHazard_10,
+            style: style_ExtremeHazard_10_0,
+        });
+        bounds_group.addLayer(layer_ExtremeHazard_10);
+        function pop_ThreatLevel_11(feature, layer) {
+        }
+
+        var pattern_ThreatLevel_11_0 = new L.StripePattern({
+            weight: 0.3,
+            spaceWeight: 1.6,
+            color: '#e41a1c',
+            opacity: 0.6,
+            spaceOpacity: 0,
+            angle: 225
+        });
+        pattern_ThreatLevel_11_0.addTo(map);
+        function style_ThreatLevel_11_0(feature) {
+            switch(String(feature.properties['Class'])) {
+                case 'Very High':
+                    return {
+                pane: 'pane_ThreatLevel_11',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.6)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(186,42,26,0.6)',
+                interactive: false,
+            }
+                    break;
+                case 'Very High (Recommended)':
+                    return {
+                pane: 'pane_ThreatLevel_11',
+                stroke: false,
+                fillOpacity: 1,
+                fillPattern: pattern_ThreatLevel_11_0,
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_ThreatLevel_11');
+        map.getPane('pane_ThreatLevel_11').style.zIndex = 411;
+        map.getPane('pane_ThreatLevel_11').style['mix-blend-mode'] = 'normal';
+        var layer_ThreatLevel_11 = new L.geoJson(json_ThreatLevel_11, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_ThreatLevel_11',
+            layerName: 'layer_ThreatLevel_11',
+            pane: 'pane_ThreatLevel_11',
+            onEachFeature: pop_ThreatLevel_11,
+            style: style_ThreatLevel_11_0,
+        });
+        bounds_group.addLayer(layer_ThreatLevel_11);
+        map.addLayer(layer_ThreatLevel_11);
+        function pop_NewHomesConstructionPost94SRA_12(feature, layer) {
+        }
+
+        function style_NewHomesConstructionPost94SRA_12_0() {
+            return {
+                pane: 'pane_NewHomesConstructionPost94SRA_12',
+                shape: 'square',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(255,255,255,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(103,70,22,1.0)',
+                interactive: false,
+            }
+        }
+        map.createPane('pane_NewHomesConstructionPost94SRA_12');
+        map.getPane('pane_NewHomesConstructionPost94SRA_12').style.zIndex = 412;
+        map.getPane('pane_NewHomesConstructionPost94SRA_12').style['mix-blend-mode'] = 'normal';
+        var layer_NewHomesConstructionPost94SRA_12 = new L.geoJson(json_NewHomesConstructionPost94SRA_12, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_NewHomesConstructionPost94SRA_12',
+            layerName: 'layer_NewHomesConstructionPost94SRA_12',
+            pane: 'pane_NewHomesConstructionPost94SRA_12',
+            onEachFeature: pop_NewHomesConstructionPost94SRA_12,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_NewHomesConstructionPost94SRA_12_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_NewHomesConstructionPost94SRA_12);
+        map.addLayer(layer_NewHomesConstructionPost94SRA_12);
+        function pop_NewHomeConstructionPost94LRA_13(feature, layer) {
+        }
+
+        function style_NewHomeConstructionPost94LRA_13_0() {
+            return {
+                pane: 'pane_NewHomeConstructionPost94LRA_13',
+                shape: 'square',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(255,255,255,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 2.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,0,0,1.0)',
+                interactive: false,
+            }
+        }
+        map.createPane('pane_NewHomeConstructionPost94LRA_13');
+        map.getPane('pane_NewHomeConstructionPost94LRA_13').style.zIndex = 413;
+        map.getPane('pane_NewHomeConstructionPost94LRA_13').style['mix-blend-mode'] = 'normal';
+        var layer_NewHomeConstructionPost94LRA_13 = new L.geoJson(json_NewHomeConstructionPost94LRA_13, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_NewHomeConstructionPost94LRA_13',
+            layerName: 'layer_NewHomeConstructionPost94LRA_13',
+            pane: 'pane_NewHomeConstructionPost94LRA_13',
+            onEachFeature: pop_NewHomeConstructionPost94LRA_13,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_NewHomeConstructionPost94LRA_13_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_NewHomeConstructionPost94LRA_13);
+        map.addLayer(layer_NewHomeConstructionPost94LRA_13);
+        var osmGeocoder = new L.Control.Geocoder({
+            collapsed: true,
+            position: 'topleft',
+            text: 'Search',
+            title: 'Testing'
+        }).addTo(map);
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .className += ' fa fa-search';
+        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
+        .title += 'Search for a place';
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'<img src="legend/NewHomeConstructionPost94LRA_13.png" /> New Home Construction (Post \'94) {LRA}': layer_NewHomeConstructionPost94LRA_13,'<img src="legend/NewHomesConstructionPost94SRA_12.png" /> New Homes Construction (Post \'94) {SRA}': layer_NewHomesConstructionPost94SRA_12,'Threat Level<br /><table><tr><td style="text-align: center;"><img src="legend/ThreatLevel_11_VeryHigh0.png" /></td><td>Very High</td></tr><tr><td style="text-align: center;"><img src="legend/ThreatLevel_11_VeryHighRecommended1.png" /></td><td>Very High (Recommended)</td></tr></table>': layer_ThreatLevel_11,'<img src="legend/ExtremeHazard_10.png" /> \'Extreme\' Hazard': layer_ExtremeHazard_10,'<img src="legend/20102019_9.png" /> 2010-2019': layer_20102019_9,'<img src="legend/20002009_8.png" /> 2000-2009': layer_20002009_8,'<img src="legend/19901999_7.png" /> 1990-1999': layer_19901999_7,'<img src="legend/19801989_6.png" /> 1980-1989': layer_19801989_6,'<img src="legend/19701979_5.png" /> 1970-1979': layer_19701979_5,'<img src="legend/Pre1970_4.png" /> Pre-1970': layer_Pre1970_4,'<img src="legend/CountyLines_3.png" /> County Lines': layer_CountyLines_3,'<img src="legend/NationalForestLand_2.png" /> National Forest Land': layer_NationalForestLand_2,'<img src="legend/NationalParkServiceLand_1.png" /> National Park Service Land': layer_NationalParkServiceLand_1,"Google Hybrid": layer_GoogleHybrid_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        var i = 0;
+        layer_CountyLines_3.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['NAME'] !== null?String('<div style="color: #000000; font-size: 10pt; font-weight: bold; font-family: \'Microsoft PhagsPa\', sans-serif;">' + layer.feature.properties['NAME']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_CountyLines_3'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_NationalForestLand_2,layer_CountyLines_3]);
+        map.on("zoomend", function(){
+            resetLabels([layer_NationalForestLand_2,layer_CountyLines_3]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_NationalForestLand_2,layer_CountyLines_3]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_NationalForestLand_2,layer_CountyLines_3]);
+        });
+        </script>
+    </body>
+</html>
