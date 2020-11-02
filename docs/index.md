@@ -1,6 +1,6 @@
 
 # My website test
 
-<iframe src="jh_webmap/index.html" height=768 width=1024></iframe>
+<iframe src="jh_webmap/index.html"></iframe>
 
 ## Ta-DA!
