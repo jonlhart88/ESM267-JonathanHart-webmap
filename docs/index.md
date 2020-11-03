@@ -3,6 +3,5 @@
 
 <iframe src="jh_webmap/index.html" height=850 width=1400></iframe>
 
-![TEST](https://jonlhart88.github.io/ESM267-JonathanHart-webmap/img/paint_burned1.jpg)
 
 ## Ta-DA!
