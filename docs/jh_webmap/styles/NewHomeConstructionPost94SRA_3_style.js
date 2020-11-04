@@ -21,7 +21,7 @@ var style_NewHomeConstructionPost94SRA_3 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.RegularShape({radius: 4.800000000000001 + size, points: 4,
+        image: new ol.style.RegularShape({radius: 4.8 + size, points: 4,
             angle: Math.PI/4, stroke: new ol.style.Stroke({color: 'rgba(255,255,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(103,70,22,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,

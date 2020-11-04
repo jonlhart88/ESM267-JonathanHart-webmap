@@ -3,6 +3,6 @@
 
 <iframe src="jh_webmap/index.html" height=850 width=1400></iframe>
 
-![WUI areas in California](./img/CAWUI.png){width=200px}
+![WUI areas in California](./img/CAWUI.png){width="200px"}
 
 ## Insert map text!
