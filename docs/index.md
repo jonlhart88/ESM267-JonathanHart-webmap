@@ -4,7 +4,8 @@
 
 ![](./img/Fire_1.png)
 
-<img src="img/top_fires.png" width="200">
+<img src="img/top_fires.png" width="500">
+
 **Figure 1.** *A graph of fires*
 
 
@@ -15,7 +16,7 @@
 
 ![](./img/WUI_Map2.png)
 
-<iframe src="jh_webmap/index.html" height=850 width=1400></iframe>
+<iframe src="jh_webmap/index.html" height=850 width=1200></iframe>
 
 **34.4623170 -119.7831377**
 
