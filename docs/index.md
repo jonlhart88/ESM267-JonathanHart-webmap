@@ -4,7 +4,8 @@
 
 ![](./img/Fire_1.png)
 
-![](./img/top_fires.png)
+![](./img/top_fires.png){width=200px}
+**Figure 1.** *A graph of fires
 
 ![](./img/WUI_Map2.png)
 
@@ -13,8 +14,10 @@
 
 ![](./img/paint_burned1.png)
 
+![](./img/paint_2020_2.png)
+
 ![](./img/ventura_2.png)
-**Caption for photo
+**Caption for photo**
 
 ![](./img/ventura_1.png)
 
