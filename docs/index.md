@@ -1,11 +1,10 @@
 
 # Living on the Edge
-## Exploring The Growing Expansion of the WUI in Santa Barbara, San Luis Obispo, and Ventura Counties
+## Exploring The Dangers of the Wilderness-Urban Interface in Santa Barbara, San Luis Obispo, and Ventura Counties
 
 ![](./img/Fire_1.png)
 
 <img src="img/top_fires.png" width="500">
-
 **Figure 1.** *A graph of fires*
 
 
