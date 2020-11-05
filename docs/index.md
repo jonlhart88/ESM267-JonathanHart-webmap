@@ -1,11 +1,17 @@
 
 # Living on the Edge
-## Exploring WUI in Santa Barbara, San Luis Obispo, and Ventura Counties
+## Exploring The Growing Expansion of the WUI in Santa Barbara, San Luis Obispo, and Ventura Counties
 
 ![](./img/Fire_1.png)
 
-![](./img/top_fires.png){width=200px}
+<img src="img/top_fires.png" width="200">
 **Figure 1.** *A graph of fires*
+
+
+
+
+
+
 
 ![](./img/WUI_Map2.png)
 
@@ -32,7 +38,7 @@ How do we protect communities from wildfire? This question has a complex answer 
 
 In addition to the need for reducing wildfire ignitions, we have long advocated for smarter development practices:
 
-- Avoiding building homes in fire-prone areas within the “wildland urban interface”
+- Avoiding building homes in fire-prone areas within the “wildland-urban interface”
 - Maintaining smart defensible space around structures
 - Building or retrofitting homes using fire-safe materials
 
