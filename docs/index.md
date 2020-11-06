@@ -1,11 +1,10 @@
-
-# Living on the Edge
+# **Living on the Edge**
 ## Exploring The Dangers of the Wilderness-Urban Interface in Santa Barbara, San Luis Obispo, and Ventura Counties
 
 ![](./img/Fire_1.png)
 
-<img src="img/top_fires.png" width="500">
-**Figure 1.** *A graph of fires*
+<img src="img/top_fires.png" width="700">
+**Figure 1.** *A graph of fires* 
 
 
 
@@ -13,9 +12,13 @@
 
 
 
-![](./img/WUI_Map2.png)
+<img src="./img/WUI_Map2.png" style="zoom:67%;" />
 
-<iframe src="jh_webmap/index.html" height=850 width=1200></iframe>
+
+
+****
+
+<iframe src="jh_webmap/index.html" height=900 width=1200></iframe>
 
 **34.4623170 -119.7831377**
 
@@ -33,6 +36,8 @@ Scenic Way Dr., Ventura CA
 
 Bell Canyon, Ventura County
 **34.206723 -118.695030** 
+
+
 
 How do we protect communities from wildfire? This question has a complex answer with many possible solutions. First and foremost, we need to redouble our efforts to reduce the number of wildfire ignitions. For example, the 2017 wildfire season showed that we need to start thinking about underground power lines in high-fire areas. We also need to ensure that our firefighters have all of the tools and emerging technologies they need to quickly detect wildfires as soon as they start, and to mobilize initial attack resources even more quickly than they already do.
 
@@ -57,8 +62,4 @@ During high-wind conditions, embers (also called “firebrands”) can be spread
 Going forward, our communities should rethink how — and whether — new development should be approved in the wildland urban interface. Homeowners already in fire-prone areas can take control of their home’s safety by replacing flammable wood shingles, installing double-pane windows, and installing innovative equipment designed to protect homes from fire such as rooftop sprinklers. All of these approaches have been shown to work time and again and they place the responsibility of protecting our communities on us collectively rather than placing the blame of wildfire destruction on our unique ecosystems.
 
 # Is Your Home At Risk of Wildfire?
-## Learn how to better prepare your home at (https://www.readyforwildfire.org/)
-
-
-
-
+## Learn how to better prepare your home at [Ready For Wildfire](https://www.readyforwildfire.org/).
