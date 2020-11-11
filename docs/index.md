@@ -21,15 +21,13 @@
 
 
 
-
-
 <img src="./img/WUI_Map2.png" width = "900" />
 
  *Wilderness-Urban Interface areas in San Luis Obispo, Santa Barbara, and Ventura counties.* 
 
 
 
-<img src="./img/wui_ex.png" width = "900" />
+<img src="./img/wui_ex.PNG" width = "900" />
 
 *Examples of Interface and Intermix types of Wilderness-Urban Interface areas.*
 
@@ -79,7 +77,7 @@ The Paint Fire burned in 1990 by severe winds eventually jumping the 101 freeway
 
 Today, the burned homes have long been rebuilt and what once was an empty field and possible fuel break has been turned into a new subdivision with even more homes in the path of another potential fire driven by sundowner winds.
 
-<img src="img/paint_2020_2.png" height="700" width="725">
+<img src="img/paint_2020_2.PNG" height="700" width="725">
 
 #### <u>Scenic Way Dr., Ventura CA</u>
 
