@@ -5,19 +5,24 @@
 
 ### <u>The WUI</u>
 
-
-
-
-
-
-
-
+Five of the top 10 largest wildfires in California’s history have occurred thus far in 2020, scorching millions of acres as they left a path of destruction in their wake. Thousands of homes and infrastructure fell victim to the blazes as countless others remain threatened. While climate change is largely to blame for the drier, hotter conditions fueling the flames, the conversation has also turned to the growing wildland-urban interface. Otherwise known as the WUI, this term refers to the dense areas of housing development that commingle with natural terrain that’s historically prone to wildfires.
 
 <img src="img/top_fires.png" width="700">
 
 *The top 25 wildfires in California by size. All but one of the top 5 fires all burned in 2020*.
 
+In other words, as more people move into the WUI, they’re more likely to be impacted by wildfires. At the same time, those natural fires that help to regenerate forests and renew soil are suppressed, causing them to burn more severely later and consequently cause more damage. WUI areas can come in different forms, but most commonly WUI communities in California can be classified as either Interface or Intermix. 
 
+<img src="./img/wui_ex.PNG" width = "900" />
+
+*Examples of Interface and Intermix types of Wilderness-Urban Interface areas.*
+
+
+
+> California touts the largest number of houses inside the WUI (4.5 million) as well as the greatest number of people (11.2 million) living in it. Nearly half of the homes built in the state of California between 1990 and 2010 are based in WUI zones, putting these households at “high or extreme risk for wildfire,” according to the Center for Insurance Policy and Research.
+>
+
+In Santa Barbara, San Luis Obispo, and Ventura counties the expansion of the WUI is no exception. Catastrophic loses from fires such as the Woolsey, Thomas, Tea, and Jesusita fires seem to be no match for the state's increasing population and changing demographics. As the high costs of housing in California continue to climb, so does the pressure to develop in less-populated regions of the state. Much of the housing development in the WUI is simply more affordable, also luring people in with the promise of clean air, gorgeous views and a natural setting. As climate change fuels more frequent, larger, and intense fires the increasing housing stock in these WUI areas will be increasingly vulnerable as firefighting resources are stretched ever thinner and often unable to effectively fight such extreme fire behavior. 
 
 
 
@@ -26,10 +31,6 @@
  *Wilderness-Urban Interface areas in San Luis Obispo, Santa Barbara, and Ventura counties.* 
 
 
-
-<img src="./img/wui_ex.PNG" width = "900" />
-
-*Examples of Interface and Intermix types of Wilderness-Urban Interface areas.*
 
 ------
 
@@ -55,7 +56,7 @@ You can toggle on and off the footprints of historical wildfire by each decade w
 
 **Homes -**
 
-New home construction occurring in 1994 or after as identified through Google satellite imagery. Layers were divided into those built in State Responsibility Areas (SRA) and Local Responsibility Areas (LRA).
+New home construction occurring in 1994 or after as identified through Google satellite imagery. Layers were divided into those built in State Responsibility Areas (SRA) and Local Responsibility Areas (LRA). See if you can identify where these homes are in Intermix and Interface WUI. 
 
 ****
 
@@ -124,7 +125,7 @@ land managers to prevent fires from moving into these areas and threaten lives a
 Communities throughout California have long understood the need to avoid building in floodplains, and the same logic needs 
 to be applied to building in areas at high risk for wildfire. Limiting the construction of homes and other buildings in 
 areas of high fire risk can greatly mitigate wildfire damage in the future. Reducing development in fire-prone areas may 
-also decrease the probability of human-caused ignitions there.
+also decrease the probability of human-caused ignitions there. For those who choose to live in the WUI, there needs to be a clear understanding that help is not guaranteed under the extreme fires occurring today. It should be assumed that no one else will be there to help you escape a possible life threatening situation. 
 
 For homes and structures that already exist in areas at risk of being affected by wildfire, defensible space is a first step to better-protecting your home. Fire scientists recommend clearing vegetation no further than 100 feet from your buildings. Reducing woody vegetation immediately adjacent to structures by about 40% while also ensuring that other vegetation does not overhang or touch structures have been shown to be some of the best measures a homeowner in fire-prone areas can take.
 
