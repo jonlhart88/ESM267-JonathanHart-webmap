@@ -22,7 +22,7 @@ In other words, as more people move into the WUI, they’re more likely to be im
 > California touts the largest number of houses inside the WUI (4.5 million) as well as the greatest number of people (11.2 million) living in it. Nearly half of the homes built in the state of California between 1990 and 2010 are based in WUI zones, putting these households at “high or extreme risk for wildfire,” according to the Center for Insurance Policy and Research.
 >
 
-In Santa Barbara, San Luis Obispo, and Ventura counties the expansion of the WUI is no exception. Catastrophic loses from fires such as the Woolsey, Thomas, Tea, and Jesusita fires seem to be no match for the state's increasing population and changing demographics. As the high costs of housing in California continue to climb, so does the pressure to develop in less-populated regions of the state. Much of the housing development in the WUI is simply more affordable, also luring people in with the promise of clean air, gorgeous views and a natural setting. As climate change fuels more frequent, larger, and intense fires the increasing housing stock in these WUI areas will be increasingly vulnerable as firefighting resources are stretched ever thinner and often unable to effectively fight such extreme fire behavior. 
+In Santa Barbara, San Luis Obispo, and Ventura counties the expansion of the WUI is no exception. Catastrophic loses from fires such as the Woolsey, Thomas, Tea, and Jesusita fires seems a deterrent that is no match for the state's increasing population and changing demographics. As the high costs of housing in California continue to climb, so does the pressure to develop in less-populated regions of the state. Much of the housing development in the WUI is simply more affordable, also luring people in with the promise of clean air, gorgeous views and a natural setting. As climate change fuels more frequent and intense fires, the increasing housing stock in these WUI areas will be increasingly vulnerable as firefighting resources are stretched ever thinner and often unable to effectively fight such extreme fire behavior. 
 
 
 
@@ -38,7 +38,7 @@ In Santa Barbara, San Luis Obispo, and Ventura counties the expansion of the WUI
 
 ### <u>Explore The Map</u>
 
-Use the map above to explore these notable examples of the Central Coast's unrelenting expansion into the WUI; our unrelenting desire to live on the edge throughout the state is causing devastation in communities year after year due to catastrophic wildfire. 
+Use the interactive map below to explore the Central Coast's unrelenting expansion into the WUI; our unrelenting desire to live on the edge throughout the state is causing devastation in communities year after year due to catastrophic wildfire. 
 
 #### Map Layer Descriptions:
 
