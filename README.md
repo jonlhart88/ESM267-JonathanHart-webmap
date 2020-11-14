@@ -4,3 +4,4 @@ The contents of this repository contains files required to host a web map and ad
 
 This project is an assignment for the ESM 267 course at UCSB's Bren School of Environmental Sciences and Management.
 
+*webmap created using QGIS and qgis2web plugin. Script was written using Typora interface for markdown. 
